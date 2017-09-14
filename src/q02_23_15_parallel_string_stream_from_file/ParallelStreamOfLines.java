@@ -1,4 +1,4 @@
-package q1_23_15_parallel_string_stream_from_file;
+package q02_23_15_parallel_string_stream_from_file;
 
 import java.io.IOException;
 import java.nio.file.Files;
