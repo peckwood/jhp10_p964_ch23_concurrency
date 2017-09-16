@@ -21,6 +21,7 @@ public class PrintTask implements Runnable{
 			Thread.sleep(sleepTime);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
+			Thread.currentThread().interrupt(); // re-interrupt the thread
 		}
 		System.out.println(Thread.currentThread().getName()+" finished");
 	}
